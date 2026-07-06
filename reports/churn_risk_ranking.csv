@@ -1,0 +1,201 @@
+client_id,client_name,account_manager,monthly_recurring_revenue,contract_type,is_churned,predicted_churn_probability,risk_tier
+CLT063,Wright and Sons,Evan Wright,2039.283369765001,Monthly,True,0.9998552945240765,High
+CLT058,"Johnston, Sanchez and Kennedy",Diana Prince,3371.0006578450348,Monthly,True,0.9998272620546905,High
+CLT074,"Stanley, Tucker and Lee",Alice Smith,8515.401611342188,Annual,True,0.9997471349688785,High
+CLT188,Vargas Ltd,Charlie Brown,10772.790292331312,Monthly,True,0.9996866138157114,High
+CLT197,Marshall-Petersen,Bob Jones,3715.427490821461,Monthly,True,0.9996325979803252,High
+CLT189,Garcia LLC,Charlie Brown,4540.906562621181,Monthly,True,0.9995741201514635,High
+CLT129,"Mccall, Hanson and Alvarado",Charlie Brown,13847.303601595038,Monthly,True,0.999482561630111,High
+CLT051,"Brooks, Lam and Hayes",Alice Smith,40301.36338176215,Monthly,True,0.9990964817651254,High
+CLT196,"Nelson, Morton and Medina",Alice Smith,10934.857629759346,Monthly,True,0.9990693267085647,High
+CLT099,Williams-Cook,Evan Wright,1240.1656235185071,Monthly,True,0.9989427124059204,High
+CLT069,Russell Group,Bob Jones,7195.105250809587,Annual,True,0.9988174351784195,High
+CLT132,Spencer-Lee,Bob Jones,14758.73754910054,Monthly,True,0.9987016481716929,High
+CLT103,"Mckee, Gardner and Davenport",Diana Prince,2741.693223209531,Monthly,True,0.9985647774270058,High
+CLT191,Reed Group,Evan Wright,40916.664618373165,Monthly,True,0.9985303678852261,High
+CLT061,"Brown, Valdez and Lucas",Charlie Brown,4762.525647852117,Monthly,True,0.9976208376613844,High
+CLT050,"Harris, Collins and Carney",Alice Smith,2520.1207858842645,Monthly,True,0.9974642472225009,High
+CLT111,Patton-Jenkins,Alice Smith,12622.851347766158,Monthly,True,0.9971131605777104,High
+CLT082,Sandoval-Cunningham,Evan Wright,47995.6120947294,Monthly,True,0.9967889395632145,High
+CLT095,Campbell-Clark,Charlie Brown,49114.49481547414,Monthly,True,0.9951024223100908,High
+CLT077,"Woods, Calhoun and Schmidt",Bob Jones,6925.990277856305,Monthly,True,0.994580199284956,High
+CLT178,Walker-Jones,Evan Wright,5437.390723089474,Monthly,True,0.9945233650142485,High
+CLT036,Rodriguez-Graham,Alice Smith,2650.427319759474,Annual,True,0.9936299039618907,High
+CLT030,"Snyder, Campos and Callahan",Evan Wright,14172.98984148302,Monthly,True,0.9935676204995404,High
+CLT013,Arnold Ltd,Charlie Brown,2049.7634867835686,Monthly,True,0.9930963760312593,High
+CLT090,Moore-Bass,Charlie Brown,3337.8749210309643,Monthly,True,0.9928412778612203,High
+CLT125,Scott Ltd,Charlie Brown,2485.292634056329,Monthly,True,0.9895884616756613,High
+CLT081,"Sanchez, Wheeler and Harvey",Alice Smith,724.7027142435181,Monthly,True,0.9843040132909063,High
+CLT128,Diaz Inc,Diana Prince,4330.170891415079,Monthly,True,0.9748657000520418,High
+CLT161,Brown-Wall,Alice Smith,16826.84662673366,Monthly,True,0.9683051289893929,High
+CLT026,Wilkerson-Day,Alice Smith,10031.362585800878,Monthly,True,0.9671106227444158,High
+CLT091,"Turner, Riggs and Roman",Evan Wright,2490.8714635750075,Multi-year,True,0.963377114883675,High
+CLT108,Dickson-Brady,Bob Jones,12328.989183413418,Monthly,True,0.9258273276309248,High
+CLT105,Nolan-Flynn,Diana Prince,4120.331650656337,Monthly,True,0.9056119627380083,High
+CLT124,"Joyce, Wilson and Lam",Diana Prince,12087.446977429763,Monthly,True,0.7877858057811807,High
+CLT181,Wells Inc,Evan Wright,4031.361919205028,Monthly,True,0.7393403131633995,High
+CLT104,"Tran, Jordan and Williams",Diana Prince,4320.419377059802,Monthly,True,0.539990019598908,Medium
+CLT170,Hooper PLC,Diana Prince,30064.95936123465,Multi-year,False,0.4708428735958406,Medium
+CLT054,"Robinson, Jones and Welch",Alice Smith,28273.000473733016,Multi-year,False,0.34503320558095946,Medium
+CLT121,White-Estes,Bob Jones,10400.119146045105,Multi-year,False,0.3248695442274314,Medium
+CLT198,"Adams, Christian and Rivas",Evan Wright,11758.477464643363,Annual,False,0.17832338259955155,Low
+CLT193,Short-Garcia,Bob Jones,2435.589538653981,Multi-year,False,0.13531099482130382,Low
+CLT052,Walker LLC,Evan Wright,4303.338504328516,Annual,False,0.12564151539101276,Low
+CLT016,Galloway-Wyatt,Diana Prince,2527.7757580320363,Annual,False,0.12163889794775604,Low
+CLT164,Smith-Bell,Alice Smith,11941.50573509831,Multi-year,False,0.10065316309343514,Low
+CLT049,Hickman Ltd,Diana Prince,7837.759057987245,Annual,False,0.08833210889039167,Low
+CLT060,Gomez-Jenkins,Bob Jones,5230.226047876376,Annual,False,0.08792971826787829,Low
+CLT168,Johnson-Rogers,Bob Jones,4631.718371486601,Monthly,False,0.07618939223631063,Low
+CLT185,Rodriguez-Johnson,Bob Jones,20268.25220821948,Monthly,False,0.07469579371015356,Low
+CLT020,"Reid, Ferguson and Sanchez",Alice Smith,8225.507642386005,Monthly,False,0.06321279277290723,Low
+CLT007,Blake and Sons,Charlie Brown,3912.6724140656393,Monthly,False,0.04995057583125552,Low
+CLT154,Green-Wright,Alice Smith,39774.2284030419,Multi-year,False,0.04667697715961478,Low
+CLT145,Hernandez Ltd,Charlie Brown,9809.728898861238,Annual,False,0.03587135931427409,Low
+CLT087,"Ferrell, Jones and Lewis",Evan Wright,4258.149918672923,Annual,False,0.028039539454354633,Low
+CLT190,"Burke, Martinez and Riggs",Bob Jones,3076.1465762510406,Multi-year,False,0.020385703910769572,Low
+CLT088,Anderson-Bailey,Alice Smith,26652.417432921528,Annual,False,0.02005361058022675,Low
+CLT027,Baker and Sons,Diana Prince,30108.19104209768,Annual,False,0.01618412326330672,Low
+CLT107,"Wright, Garcia and Deleon",Bob Jones,11859.677359829842,Annual,False,0.01461663237344558,Low
+CLT156,Hill Inc,Diana Prince,15446.92916436534,Annual,False,0.014534071399063483,Low
+CLT085,"Evans, Stewart and Walton",Bob Jones,11957.142928497502,Monthly,False,0.014086457256319693,Low
+CLT183,Jackson-Lawson,Bob Jones,26493.673904909014,Monthly,False,0.012775477522258251,Low
+CLT059,Lee-Davis,Bob Jones,13267.988278090785,Annual,False,0.011161539730524164,Low
+CLT062,Powell LLC,Bob Jones,3040.859605688683,Annual,False,0.010710399040460583,Low
+CLT002,Doyle Ltd,Charlie Brown,2069.187275124247,Annual,False,0.009877914486079923,Low
+CLT096,Harris-Walters,Bob Jones,4107.394911632312,Monthly,False,0.008877421543989142,Low
+CLT199,Ramirez Group,Diana Prince,2314.4241949927164,Annual,False,0.007938693794385592,Low
+CLT123,Chandler-Edwards,Evan Wright,4922.493885884047,Annual,False,0.007820457138613138,Low
+CLT141,Hernandez Inc,Evan Wright,13407.030280112,Multi-year,False,0.007070837377176477,Low
+CLT174,Lewis-Murphy,Charlie Brown,2089.00466919422,Annual,False,0.006115955306353993,Low
+CLT187,Sanders-Espinoza,Charlie Brown,16985.590154746173,Annual,False,0.00456730222581671,Low
+CLT135,Mitchell-Jordan,Evan Wright,4040.68333762506,Multi-year,False,0.003840320764205927,Low
+CLT079,Jones Inc,Bob Jones,9619.428505755875,Annual,False,0.0033166092898544467,Low
+CLT065,Baxter Inc,Charlie Brown,9970.119488212493,Annual,False,0.003243274544859287,Low
+CLT113,"Rodriguez, Brennan and Garrison",Diana Prince,3023.743482878469,Annual,False,0.002418954119277636,Low
+CLT172,"Alvarado, Miller and Patterson",Alice Smith,3408.9253240421267,Annual,False,0.0024029447642150764,Low
+CLT153,Manning Group,Evan Wright,14673.561777882753,Monthly,False,0.0020575280396814568,Low
+CLT114,Gonzalez Group,Diana Prince,11474.747141546031,Monthly,False,0.0019017903471281964,Low
+CLT134,"Carroll, Sullivan and Bass",Diana Prince,16344.922213681377,Annual,False,0.0016981858275640896,Low
+CLT056,Jones-Young,Evan Wright,10318.57479688174,Annual,False,0.0016571572317161905,Low
+CLT160,Russell-Daniels,Bob Jones,12251.855480273907,Multi-year,False,0.0016352499497297075,Low
+CLT144,"Lee, Horton and Snyder",Diana Prince,8853.758830473618,Annual,False,0.001579863175884794,Low
+CLT140,Chambers and Sons,Charlie Brown,6805.945981753009,Multi-year,False,0.001573253835615675,Low
+CLT155,"Ramirez, Strickland and Washington",Diana Prince,7905.875598063551,Multi-year,False,0.0015337531347773996,Low
+CLT010,Abbott-Munoz,Alice Smith,3532.241907732697,Multi-year,False,0.0014129495746459263,Low
+CLT048,"Martin, Rose and Obrien",Diana Prince,8274.973521779146,Monthly,False,0.0013842340512818887,Low
+CLT098,Davis Group,Charlie Brown,4405.184249209376,Annual,False,0.0013615383796435475,Low
+CLT158,"Miller, Hernandez and Reyes",Bob Jones,6958.408125869189,Monthly,False,0.0013352335851056628,Low
+CLT133,"Bentley, Byrd and Orr",Evan Wright,4432.057783958799,Annual,False,0.0012192190983712117,Low
+CLT137,"Lewis, Kennedy and Santana",Bob Jones,724.7027142435181,Annual,False,0.0011485384129783834,Low
+CLT130,Cortez LLC,Alice Smith,11331.89626013464,Monthly,False,0.0010864404425562555,Low
+CLT021,Gray-Mayo,Diana Prince,11499.639307777652,Annual,False,0.0009269580980520276,Low
+CLT131,"Parker, Ortiz and Powell",Evan Wright,26978.10367280951,Monthly,False,0.0009153349195378991,Low
+CLT038,"Baker, Mason and White",Bob Jones,4467.611728769507,Annual,False,0.0008912938962237572,Low
+CLT157,"Mitchell, Nelson and Flores",Alice Smith,3970.340314172882,Annual,False,0.0008861958705889943,Low
+CLT143,Gibson Ltd,Bob Jones,10542.265141320167,Annual,False,0.0008858346200778051,Low
+CLT147,Robinson-Brock,Charlie Brown,4404.100747458557,Annual,False,0.0008475405347708607,Low
+CLT047,Anderson Group,Charlie Brown,7524.369443440208,Annual,False,0.0008466375016810589,Low
+CLT086,Smith PLC,Evan Wright,3697.195891987373,Multi-year,False,0.0007957870462988626,Low
+CLT106,Nolan and Sons,Evan Wright,19303.97829853693,Annual,False,0.0006997534429024178,Low
+CLT055,Jones Inc,Bob Jones,2948.589746889484,Monthly,False,0.0006595961157688597,Low
+CLT097,Wagner-King,Bob Jones,4079.581822468043,Monthly,False,0.0006283514461871261,Low
+CLT176,King-Miller,Diana Prince,10963.215188603685,Multi-year,False,0.0006125163710758155,Low
+CLT167,"Hurst, Freeman and Nelson",Evan Wright,4111.057932382388,Monthly,False,0.0006028984705507294,Low
+CLT033,"Ferrell, Rice and Maddox",Evan Wright,724.7027142435181,Annual,False,0.0005443430099671407,Low
+CLT112,"Shields, Cochran and Adams",Alice Smith,3789.456424956265,Annual,False,0.0005326918171908659,Low
+CLT192,"Wood, Hunter and Peterson",Charlie Brown,2198.0295324207245,Monthly,False,0.0005150266035771232,Low
+CLT040,"Romero, Gonzalez and Brooks",Alice Smith,28728.273579729368,Annual,False,0.0005044907211579871,Low
+CLT165,Castaneda-Ashley,Charlie Brown,37776.89916455616,Multi-year,False,0.0005026139574651306,Low
+CLT024,Morales-Jones,Evan Wright,12145.959227000623,Multi-year,False,0.0004735566185745028,Low
+CLT171,Meadows PLC,Diana Prince,6042.248028083477,Annual,False,0.00046616758658856133,Low
+CLT006,"Gardner, Robinson and Lawrence",Alice Smith,12290.071680409874,Monthly,False,0.0004482562571101094,Low
+CLT070,Hancock Inc,Bob Jones,9217.03934553282,Annual,False,0.00040197344063453794,Low
+CLT039,Harrell LLC,Charlie Brown,8808.908566310216,Multi-year,False,0.0003564328320457799,Low
+CLT162,Stein-Silva,Diana Prince,2733.0198223593984,Monthly,False,0.0003517719427040266,Low
+CLT100,Walsh LLC,Bob Jones,3950.97705904081,Annual,False,0.000351458892147656,Low
+CLT041,Ryan PLC,Charlie Brown,10203.077009037934,Monthly,False,0.00034802219752100343,Low
+CLT094,Newton and Sons,Alice Smith,16826.84662673366,Multi-year,False,0.0003469113309486723,Low
+CLT101,Figueroa PLC,Bob Jones,10048.448818930176,Multi-year,False,0.00029355520797922247,Low
+CLT014,"Mcclure, Ward and Lee",Bob Jones,22999.25076290549,Monthly,False,0.00026522489391249025,Low
+CLT110,Johnson-Doyle,Alice Smith,5482.12038860556,Monthly,False,0.0002642132874075086,Low
+CLT083,Donovan-Harris,Bob Jones,1050.388954131504,Monthly,False,0.000262030719481817,Low
+CLT115,Torres-Pope,Charlie Brown,4409.07769349799,Monthly,False,0.00026078927998291276,Low
+CLT186,Johnston-Odonnell,Charlie Brown,3629.073751872989,Monthly,False,0.00025690770422361195,Low
+CLT163,"Smith, Gilmore and Johnston",Charlie Brown,13371.0730175575,Annual,False,0.00024015695340685007,Low
+CLT004,Davis and Sons,Bob Jones,3560.2040635334324,Multi-year,False,0.00021836237807753347,Low
+CLT092,"Smith, Montoya and Evans",Diana Prince,45007.60322323746,Monthly,False,0.0002169947934359544,Low
+CLT146,Stafford Inc,Evan Wright,5585.509292439792,Multi-year,False,0.0002147203864006911,Low
+CLT053,Chapman and Sons,Alice Smith,4044.508166671788,Monthly,False,0.0002101299198263291,Low
+CLT152,"Simmons, Meadows and Griffin",Evan Wright,6279.882085335864,Multi-year,False,0.00020768898965237086,Low
+CLT084,"Edwards, Baker and Anderson",Charlie Brown,8911.697660803798,Multi-year,False,0.00019524162406676406,Low
+CLT066,Morton-Chase,Alice Smith,9079.844953648448,Multi-year,False,0.00017456179979796047,Low
+CLT200,Christensen PLC,Alice Smith,4609.289530045133,Multi-year,False,0.00016194503494785077,Low
+CLT117,Ross LLC,Bob Jones,3386.7586833571186,Annual,False,0.0001608581120007771,Low
+CLT118,Rasmussen LLC,Bob Jones,6497.039679569577,Annual,False,0.00015046664299353315,Low
+CLT139,"Harvey, Davis and Crane",Evan Wright,2038.1446699606809,Monthly,False,0.00014585935027240128,Low
+CLT080,"Hensley, Powell and David",Alice Smith,4304.820241593555,Monthly,False,0.00014016807638563182,Low
+CLT169,"Yates, Ramsey and Pittman",Evan Wright,3564.3370671307684,Annual,False,0.00013577396687394482,Low
+CLT046,Spence PLC,Charlie Brown,13529.816545570016,Monthly,False,0.0001260307264346085,Low
+CLT011,Blair PLC,Alice Smith,2902.634929450309,Multi-year,False,0.00011194717570346559,Low
+CLT068,Novak and Sons,Bob Jones,3928.77669084276,Multi-year,False,0.00011143602910447414,Low
+CLT042,George Group,Diana Prince,2638.892484526732,Annual,False,0.00010306398014246164,Low
+CLT034,Frazier Inc,Charlie Brown,2990.7575870572955,Monthly,False,0.00010199495723692189,Low
+CLT109,Hancock and Sons,Alice Smith,11178.47240201214,Multi-year,False,9.765178618576631e-05,Low
+CLT177,Curry Inc,Diana Prince,13736.985934663451,Annual,False,9.505399842965799e-05,Low
+CLT195,"Hernandez, Thompson and Boyd",Diana Prince,8031.940594610461,Annual,False,9.326900860327343e-05,Low
+CLT031,Burton Ltd,Diana Prince,36085.43240653916,Annual,False,9.042981929672737e-05,Low
+CLT009,Garcia-James,Alice Smith,4424.361138693251,Annual,False,8.66899756228994e-05,Low
+CLT005,"Guzman, Hoffman and Baldwin",Alice Smith,2483.0718050263367,Multi-year,False,8.196204951945757e-05,Low
+CLT136,"Lawson, Morris and Ramos",Charlie Brown,12746.535311811818,Monthly,False,7.543454385975307e-05,Low
+CLT018,"Flowers, Martin and Kelly",Diana Prince,2531.332038221147,Monthly,False,6.839503274345919e-05,Low
+CLT184,"Higgins, Strickland and Martin",Charlie Brown,44349.22252159899,Annual,False,6.837484469794551e-05,Low
+CLT037,Smith-Bowen,Bob Jones,3060.0566840781585,Monthly,False,6.376850474570413e-05,Low
+CLT029,"Ross, Robinson and Bright",Diana Prince,40607.671435487406,Annual,False,6.36479498953498e-05,Low
+CLT045,"Arroyo, Miller and Tucker",Evan Wright,24750.66186611855,Monthly,False,6.331491440553143e-05,Low
+CLT159,Mccarthy Inc,Diana Prince,3091.079374268421,Annual,False,6.320697072850825e-05,Low
+CLT122,Johnson-Carlson,Evan Wright,2266.3021823233053,Annual,False,6.12362502663801e-05,Low
+CLT175,Ramirez-Bean,Diana Prince,40145.02304365573,Annual,False,5.4629938183860394e-05,Low
+CLT017,James Group,Evan Wright,14730.105547524456,Monthly,False,5.1730669750625464e-05,Low
+CLT072,House-Glover,Charlie Brown,27385.49817964373,Annual,False,4.735863324484187e-05,Low
+CLT093,"Garcia, Humphrey and Baker",Diana Prince,3419.6297200746712,Annual,False,4.3020405052660885e-05,Low
+CLT012,Dudley Group,Charlie Brown,5808.533263327153,Annual,False,3.6967050482763844e-05,Low
+CLT064,"West, Henderson and Ramirez",Charlie Brown,1050.388954131504,Annual,False,3.574145426464033e-05,Low
+CLT001,"Rodriguez, Figueroa and Sanchez",Charlie Brown,18499.1220536301,Annual,False,3.4140312168178604e-05,Low
+CLT182,"Gould, Marshall and Scott",Charlie Brown,2626.59221211722,Annual,False,3.396632312070275e-05,Low
+CLT148,"Holmes, Williams and Wright",Diana Prince,7029.363675749022,Annual,False,3.335327497232348e-05,Low
+CLT116,Walker Ltd,Diana Prince,2555.685339642229,Monthly,False,2.603231225108041e-05,Low
+CLT078,Yu Inc,Charlie Brown,13849.983565232813,Monthly,False,2.5727527290850116e-05,Low
+CLT025,"Walter, Edwards and Rios",Diana Prince,5407.288023189702,Monthly,False,2.3560970904995993e-05,Low
+CLT149,Bryant Group,Evan Wright,45545.55876696107,Multi-year,False,1.9489622569043325e-05,Low
+CLT166,Medina-Navarro,Alice Smith,4898.730232120395,Monthly,False,1.8417626946940835e-05,Low
+CLT102,"Patterson, Smith and Jones",Evan Wright,7106.6218900566655,Monthly,False,1.82888711164663e-05,Low
+CLT023,Perez Inc,Charlie Brown,574.1583700939682,Annual,False,1.7603774414492288e-05,Low
+CLT067,Williams PLC,Charlie Brown,13556.964681062858,Annual,False,1.504793543286448e-05,Low
+CLT035,"Dyer, Potter and Mack",Evan Wright,13685.991281894603,Multi-year,False,1.4470626030021605e-05,Low
+CLT075,Novak PLC,Alice Smith,4886.296357292353,Monthly,False,1.3937332399801456e-05,Low
+CLT150,"Schmidt, Hansen and Stewart",Diana Prince,36357.88023171744,Annual,False,1.3381069270011906e-05,Low
+CLT032,Carlson-Cruz,Diana Prince,4117.494451636084,Monthly,False,1.2753797551079815e-05,Low
+CLT076,"Daniels, Adkins and Brown",Charlie Brown,11466.649191171631,Annual,False,1.1475066802352683e-05,Low
+CLT173,White-Green,Bob Jones,14521.510038882538,Multi-year,False,1.0849009499927531e-05,Low
+CLT071,Gray Group,Bob Jones,2619.263815281809,Annual,False,1.0360321967092089e-05,Low
+CLT028,"Hoffman, Baker and Richards",Bob Jones,4044.841006918369,Annual,False,9.65964357444294e-06,Low
+CLT003,"Mcclain, Miller and Henderson",Bob Jones,2511.5723710618745,Annual,False,9.142292142168121e-06,Low
+CLT138,"Jackson, Miller and Robertson",Diana Prince,4760.891543658223,Annual,False,8.933601761066506e-06,Low
+CLT127,"Mcdaniel, Bentley and Mclaughlin",Alice Smith,14227.571905133944,Multi-year,False,8.620394142965362e-06,Low
+CLT019,"Adams, Zuniga and Wong",Charlie Brown,13511.36671516857,Multi-year,False,7.600154949097354e-06,Low
+CLT044,Allen-Allen,Charlie Brown,2386.639165731948,Annual,False,7.299500315766144e-06,Low
+CLT142,Riggs PLC,Alice Smith,3384.6724232593697,Annual,False,7.203253990143586e-06,Low
+CLT043,Rodriguez LLC,Evan Wright,11976.418714934633,Multi-year,False,6.456100198335067e-06,Low
+CLT073,Henderson-Bernard,Evan Wright,14540.869365396333,Annual,False,5.928117837195959e-06,Low
+CLT057,"Washington, Ryan and Cummings",Evan Wright,3719.4525477721663,Multi-year,False,4.878901509244726e-06,Low
+CLT008,"Henderson, Ramirez and Lewis",Alice Smith,13957.635956735194,Monthly,False,4.591849133509917e-06,Low
+CLT151,Salazar-Ball,Evan Wright,2324.328277013825,Annual,False,4.211449687286789e-06,Low
+CLT119,May-Ross,Alice Smith,13855.502785457997,Monthly,False,2.3687880460603428e-06,Low
+CLT015,Williams and Sons,Alice Smith,46048.02484927911,Monthly,False,2.1637494394294025e-06,Low
+CLT194,Reid-Poole,Evan Wright,4936.943345524427,Annual,False,1.7422729360512486e-06,Low
+CLT022,"Watts, Robinson and Nguyen",Charlie Brown,2112.044566247643,Monthly,False,1.7022799411431507e-06,Low
+CLT126,Smith-Frost,Diana Prince,12900.304363070612,Multi-year,False,1.6421792344557143e-06,Low
+CLT089,Suarez LLC,Diana Prince,16826.84662673366,Annual,False,1.0989496140754028e-06,Low
+CLT120,"Rivera, Johnson and Wiley",Evan Wright,10783.869170064092,Monthly,False,7.479886025378068e-07,Low
+CLT179,"Williams, Johnson and Wright",Diana Prince,3862.9892673946542,Monthly,False,6.277338446994181e-07,Low
+CLT180,Howell and Sons,Evan Wright,2500.5806050962583,Annual,False,6.061686890716589e-07,Low

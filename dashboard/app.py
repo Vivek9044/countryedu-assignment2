@@ -3,12 +3,11 @@ import sys
 import pandas as pd
 import streamlit as st
 
-# Add src folder to path to import modules
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.models.strategy_simulator import simulate_intervention
 from src.recommendations import generate_recommendations, get_retention_strategy_impact
 
-# App Configuration
+
 st.set_page_config(
     page_title="Managed IT Services Churn Analytics",
     page_icon="📊",
@@ -16,7 +15,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom Styling
 st.markdown("""
 <style>
     .main { background-color: #f8f9fa; }
@@ -31,7 +29,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Data Paths
+
 workspace_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 data_dir = os.path.join(workspace_dir, "data")
 reports_dir = os.path.join(workspace_dir, "reports")
@@ -48,11 +46,11 @@ def load_data():
 clients_df, ranking_df, forecast_df = load_data()
 active_clients = ranking_df[~ranking_df['is_churned']]
 
-# Title Header
+
 st.title("💼 Client Churn Risk & Revenue Forecasting Dashboard")
 st.subheader("Managed IT Services Division — Portofolio Health and Risk Intelligence")
 
-# Sidebar navigation
+
 st.sidebar.header("Navigation Menu")
 page = st.sidebar.radio("Go to Page", [
     "Executive Overview", 
@@ -63,7 +61,7 @@ page = st.sidebar.radio("Go to Page", [
     "Actionable Recommendations"
 ])
 
-# Summary Stats calculations
+
 total_clients = len(clients_df)
 active_count = len(active_clients)
 historical_churned = total_clients - active_count
@@ -75,13 +73,11 @@ mrr_at_risk = (active_clients['monthly_recurring_revenue'] * active_clients['pre
 
 next_12m_rev = forecast_df['churn_adjusted_forecast'].sum()
 
-# ----------------------------------------------------
-# PAGE 1: EXECUTIVE OVERVIEW
-# ----------------------------------------------------
+
 if page == "Executive Overview":
     st.header("📈 Portfolio Performance & Churn Health")
     
-    # KPI metrics row
+ 
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total Active Clients", f"{active_count} / {total_clients}", f"-{historical_churned} historical churn")
@@ -94,7 +90,7 @@ if page == "Executive Overview":
         
     st.write("---")
     
-    # Layout sections
+  
     col_left, col_right = st.columns([2, 1])
     
     with col_left:
@@ -117,21 +113,19 @@ if page == "Executive Overview":
         - **🟢 Low Risk Tier (Prob < 30%)**: **{low_risk_count}** accounts
         """)
         
-        # Simple color panel summary
+     
         st.info("💡 **Executive Takeaway**: Operational efficiency metrics indicate that reducing service ticket escalation rates by even 20% and migrating at-risk clients from Monthly to Annual contract terms will preserve substantial billing revenue.")
         
         # Display small alert if high risk clients exist
         if high_risk_count > 0:
             st.error(f"⚠️ **Attention Required**: There are currently **{high_risk_count}** clients marked as **High Churn Risk**. Review the Recommendations tab to trigger account manager retention workflows immediately.")
 
-# ----------------------------------------------------
-# PAGE 2: CLIENT RISK LEDGER
-# ----------------------------------------------------
+
 elif page == "Client Risk Ledger":
     st.header("📋 Client Risk ledger & Risk Tiering")
     st.write("Use this table to search, filter, and sort the client roster by account risk probability and owner.")
     
-    # Filter controls
+
     col_f1, col_f2, col_f3 = st.columns(3)
     with col_f1:
         search_query = st.text_input("Search Client Name or ID", "")
@@ -140,7 +134,7 @@ elif page == "Client Risk Ledger":
     with col_f3:
         am_filter = st.multiselect("Filter by Account Manager", sorted(clients_df['account_manager'].unique()))
 
-    # Apply filters
+
     filtered_df = active_clients.copy()
     if search_query:
         filtered_df = filtered_df[
@@ -152,7 +146,7 @@ elif page == "Client Risk Ledger":
     if am_filter:
         filtered_df = filtered_df[filtered_df['account_manager'].isin(am_filter)]
         
-    # Formatting columns
+
     display_df = filtered_df[[
         'client_id', 'client_name', 'account_manager', 'contract_type', 
         'monthly_recurring_revenue', 'predicted_churn_probability', 'risk_tier'
@@ -171,9 +165,7 @@ elif page == "Client Risk Ledger":
         'risk_tier': 'Risk Tier'
     }), use_container_width=True, hide_index=True)
 
-# ----------------------------------------------------
-# PAGE 3: CHURN DRIVER ANALYSIS
-# ----------------------------------------------------
+
 elif page == "Churn Driver Analysis":
     st.header("🔍 Core Churn Driver Analysis")
     st.write("Understand the key operational variables and customer service triggers that are statistically driving client churn.")
@@ -206,9 +198,7 @@ elif page == "Churn Driver Analysis":
            More than 2 SLA breaches in 90 days results in client frustration, lowering ticket satisfaction scores and driving contract downgrades.
         """)
 
-# ----------------------------------------------------
-# PAGE 4: REVENUE FORECASTING
-# ----------------------------------------------------
+
 elif page == "Revenue Forecasting":
     st.header("🔮 12-Month Revenue Forecasting")
     st.write("This tab outlines future revenue trends comparing our **Baseline Forecast** (assuming past churn rates continue) against the **Churn-Adjusted Forecast** (adjusting for clients currently at risk of churning).")
@@ -241,9 +231,7 @@ elif page == "Revenue Forecasting":
         
     st.warning("⚠️ **Forecast Risk Warning**: Expected MRR loss starts compounding in Month 2 and peaks at **${:,.2f}/month** in Month 4. Proactive mitigation is critical to protect this revenue stream.".format(forecast_df['expected_mrr_loss'].max()))
 
-# ----------------------------------------------------
-# PAGE 5: STRATEGY SIMULATOR
-# ----------------------------------------------------
+
 elif page == "Strategy Simulator":
     st.header("🎮 Churn Mitigation Strategy Simulator")
     st.write("Interact with the sliders below to simulate operational interventions (e.g. reducing technical issues, improving customer happiness) and calculate the projected reduction in customer churn and revenue saved.")
@@ -260,13 +248,13 @@ elif page == "Strategy Simulator":
         nps_boost = st.slider("NPS Detractor Mitigation (Points)", 0, 50, 0, step=5,
                               help="Direct executive intervention to resolve client issues, increasing their Net Promoter Score.")
                               
-    # Run simulation
+ 
     sim_results = simulate_intervention(sla_red, usage_boost, nps_boost, workspace_dir)
     
     st.write("---")
     
     if sim_results:
-        # Results metrics row
+       
         r_col1, r_col2, r_col3 = st.columns(3)
         with r_col1:
             baseline_prob_pct = sim_results['base_avg_prob'] * 100
@@ -283,9 +271,9 @@ elif page == "Strategy Simulator":
             
         st.write("---")
         
-        # Check target progress
+      
         rel_reduction = sim_results['churn_rate_reduction_pct']
-        # Progress towards relative 5% target (e.g. if we reduced active rate by 20% relative to starting)
+     
         start_prob = sim_results['base_avg_prob']
         end_prob = sim_results['mod_avg_prob']
         relative_reduction = (start_prob - end_prob) / start_prob * 100 if start_prob > 0 else 0
@@ -301,17 +289,15 @@ elif page == "Strategy Simulator":
         else:
             st.warning(f"⚠️ **Target Not Met yet**: Currently achieving a **{relative_reduction:.2f}%** relative reduction in active churn risk. Adjust the sliders (e.g. increase product usage or resolve Detractor NPS) to reach the **5.00%** business target.")
 
-# ----------------------------------------------------
-# PAGE 6: ACTIONABLE RECOMMENDATIONS
-# ----------------------------------------------------
+
 elif page == "Actionable Recommendations":
     st.header("🎯 Prioritized Client Retention Recommendations")
     st.write("Prioritized, quantified list of retention actions for at-risk accounts based on dominant client service triggers.")
     
-    # Load impact summary
+  
     impact = get_retention_strategy_impact(workspace_dir)
     
-    # Impact metrics row
+
     col_i1, col_i2, col_i3 = st.columns(3)
     with col_i1:
         st.metric("Target Accounts Identified", f"{impact['total_clients_targeted']} clients")
@@ -322,13 +308,13 @@ elif page == "Actionable Recommendations":
         
     st.write("---")
     
-    # Table of alerts
+
     alerts = generate_recommendations(workspace_dir)
     
     if alerts:
         alerts_df = pd.DataFrame(alerts)
         
-        # Display styled cards for the top 5 highest priority alerts
+    
         st.markdown("### Top Priority Retention Alert Cards")
         for i, row in alerts_df.head(5).iterrows():
             with st.container():
@@ -344,7 +330,7 @@ elif page == "Actionable Recommendations":
                 st.info(f"🚨 **Issue Identified**: {row['primary_issue']}  \n🎯 **Recommended Action**: {row['action_item']}")
                 st.markdown("---")
                 
-        # Full table below
+     
         st.markdown("### Full Actionable Account Alerts List")
         table_df = alerts_df[['priority', 'client_id', 'client_name', 'predicted_probability', 'risk_tier', 'account_manager', 'primary_issue', 'action_item']].copy()
         table_df['predicted_probability'] = table_df['predicted_probability'].apply(lambda x: f"{x:.1%}")
